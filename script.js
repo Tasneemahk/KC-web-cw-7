@@ -24,6 +24,6 @@ function calculate() {
   let bmi_value = BMI(weight, height);
   let desc = Status(bmi_value);
   let box = document.getElementById("result");
-  box.innerText = bmi_value + "==" + desc;
+  box.innerText = bmi_value + " == " + desc;
   box.style.color = color;
 }
